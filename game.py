@@ -142,8 +142,8 @@ help_text = """
 
 
 # отображаем справку для игры
-print(help_text)
-input_text = input()  # ожидаем нажатия клавиши Ввод
+#print(help_text)
+input_text = input(help_text)  # ожидаем нажатия клавиши Ввод
 
 # Ждем имени первого игрока
 first_player = input("Введите имя первого игрока (играет Х):")
